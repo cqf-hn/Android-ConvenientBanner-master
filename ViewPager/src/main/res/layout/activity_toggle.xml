@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <mycamera2.viewpager.ScenicMapToggleNearServiceView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:bg="@mipmap/bg_scenic_map_toggle"
+        app:bg_layout_height="94dp"
+        app:bg_paddingBottom="10dp"
+        app:bg_paddingTop="4dp"
+        app:off="@mipmap/ic_scenic_map_show_near_service"
+        app:on="@mipmap/ic_scenic_map_show_subscenic"
+        app:state="true" />
+
+</RelativeLayout>
